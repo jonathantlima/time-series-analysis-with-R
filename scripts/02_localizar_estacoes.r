@@ -34,7 +34,7 @@ fluvio_sf <- st_as_sf(
 #--------------------------------------------------------------
 
 estacoes <- read_csv(
-  "dados/Estacoes_Pluviometricas.csv",
+  "dados/estacoes-hidrometeorologicas.csv",
   show_col_types = FALSE
 )
 
